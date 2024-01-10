@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  border: 0;
+}
+body {
+  font-family: Libre Franklin, "Roboto Condensed",
+    "Arial, Helvetica, sans-serif";
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+}
+.header_top {
+  width: 100%;
+  display: flex;
+  background: url(https://gp-assets-1.growthplug.com/website_files/3750/types-of-wood-grain-patterns-Jan272021-2-min.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+
+.header_logo {
+  height: 80px;
+}
+.header_logo img {
+  margin: 0 auto;
+  padding: 1px;
+
+  height: 75px;
+  object-fit: contain;
+}
+.header_top_right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+
+  width: 30%;
+  display: flex;
+
+  justify-content: space-around;
+  margin: 30px 0;
+}
+.headaer_bottom {
+  width: 100%;
+  background-color: #ee742b;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  /* padding: 0 .1rem ; */
+  justify-content: space-between;
+}
+.headaer_bottom_social {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 12% !important;
+}
+.headaer_bottom_social a  {
+  color: #fff;
+  background: #3b8392;
+  border-radius: 50% !important;
+  width: 22px !important;
+  height: 30px !important;
+  padding: 2px 8px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 20px !important;
+}
+.headaer_bottom_menu a {
+  text-decoration: none;
+  color: #fff;
+  /* font-family: 'Roboto Condensed', sans-serif; */
+  padding: 0 1.3rem !important;
+  /* background-color: rgb(16, 106, 185); */
+}
+.headaer_bottom_menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  /* height: 100%; */
+  align-items: center;
+  /* background-color: blueviolet; */
+  /* column-gap: 2rem; */
+}
+
+.appoinment {
+  /* font-family: 'Roboto Condensed', sans-serif; */
+  background: #3b8392;
+
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 0 1.3rem;
+}
+
+.banner {
+  
+  width: 100%;
+  height: 100vh;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-image: url(https://res.cloudinary.com/dcy1nhstg/image/upload/v1704784802/shutterstock_1822176773_1_ttdxnp.jpg);
+}
+
+.banner h1 {
+  font-size: 6vw;
+  /* font-family: Libre Franklin,"Roboto Condensed","Arial, Helvetica, sans-serif"; */
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.1;
+}
+.banner h3 {
+  font-size: 24px;
+  /* font-family: Libre Franklin,"Roboto Condensed","Arial, Helvetica, sans-serif"; */
+  color: #ffffff;
+  line-height: 1.1;
+  margin-top: 20px;
+
+  font-weight: 500;
+}
+.cards {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+.card_1 {
+  max-width: 300px;
+  height: 450px;
+  margin: 15px;
+ 
+  background-size: cover !important;
+  background-position: bottom !important;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  top: -80px;
+  background: linear-gradient(rgb(59 131 146 / 68%), rgb(59 131 146 / 87%)),
+    url(https://gp-assets-1.growthplug.com/website_files/3750/shutterstock_275457044_1_1.jpg);
+  background-position: 68% center !important;
+}
+.card_1 .price {
+  font-weight: 700 !important;
+  font-size: 25px !important;
+  margin: 20px;
+}
+.card_2 .price{
+    margin: 20px;
+    font-size: 25px;
+    font-weight:200 ;
+}
+.content_{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card_1 h3 {
+
+  line-height: 1.1;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px;
+}
+.card_1_{
+    font-size: 24px;
+}
+.card_1 p{
+    color: black;
+    font-size: small;
+}
+.dicription{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    
+   
+}
+.dicription b {
+    color: black;
+}
+
+.card_2 {
+  max-width: 300px;
+  height: 450px;
+  margin: 15px;
+  background-size: cover !important;
+  background-position: bottom !important;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  top: -80px;
+  background: linear-gradient(rgb(59 131 146 / 65%), rgb(59 131 146 / 66%)),
+    url(https://res.cloudinary.com/dcy1nhstg/image/upload/v1704793336/pexels-cedric-fauntleroy-4266947_1_evtax5.jpg);
+}
+.card_1_button {
+  background: #ee742b;
+  /* width: 100%; */
+  height: 50px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.card_1_button a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+  
+}
+.about{
+    width: 100%;
+   
+   
+    display: flex;
+    justify-content: space-between;
+    /* margin: 20px; */
+    background: linear-gradient(45deg, #fff 47%, #F8EEE4 10%) !important;
+    
+}
+.about_left{
+    
+    width: 50%;
+    padding: 0 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10PX;
+    
+    
+}
+.about_left h1 {
+    font-family: tahoma, arial, helvetica, sans-serif;
+    font-weight: 100;
+
+    font-size: 35px;
+    color: #236fa1;
+
+
+}
+.about_left p {
+    color: #000000;
+    font-size: 19px !important ;
+    line-height: 25px !important ;
+    font-family: 'trebuchet ms', geneva, sans-serif;
+}
+
+.about_right {
+   width: 50%;
+   height: 400px;
+   margin: 20px;
+  
+    object-fit: cover;
+}
+.about_right img {
+    height: 400px;
+    width: 600px;
+   
+}
+
+.detal_team{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(45deg, #3b839261 65%, #fff 10%) !important;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+
+}
+.dental_team_left{
+
+width: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.dental_team_left img{
+    max-width: 100%;
+    width: 600px;
+    padding: 10px;
+    display: block;
+    margin: 39px 20px;
+    object-fit: cover;
+    object-position: center 45%;
+}
+.dental_team_right{
+    width: 50%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+
+}
+.dental_team_right_contents{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin: 0 100px 0 0;
+    padding: 0 20px;
+
+}
+.dental_team_right_contents h3 {
+    
+ 
+    font-family: tahoma, arial, helvetica, sans-serif;
+    
+    font-size: 24px !important;
+     color: #236fa1;
+    font-weight: 100;
+    
+
+    
+
+}
+.dental_team_right_contents P{
+    color: #000000;
+    font-size: 19px !important ;
+    line-height: 25px !important ;
+    font-family: 'trebuchet ms', geneva, sans-serif;
+
+}
+.dental_team_right_content a{
+    background: #ee742b;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: block;
+    max-width: max-content;
+    margin: 20px 0;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.testimonial{
+  width: 100%;
+  height: 500px;
+
+}
